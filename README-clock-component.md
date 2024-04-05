@@ -114,7 +114,7 @@ To use 'ClockComponentCustomizable' in your HTML:
 ```
 ![image](https://github.com/AlexandraBledea/SE-Sem2-Framework-Design/assets/72063091/3d995e00-73b5-4fb6-9ca8-d25cfc637f65)
 
-7. Purple Theme Primar
+7. Purple Theme Primary
 ```html
 <clock-component type="purpleThemePrimary" locales="en-GB" timezone="Europe/Bucharest"></clock-component>
 ```
