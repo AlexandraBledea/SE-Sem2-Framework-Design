@@ -68,5 +68,34 @@ To use 'ClockComponentCustomizable' in your HTML:
 ## Customization
 ### Examples
 ```html
-<clock-component-customizable timezone="America/New_York" locales="en-US" type="border-dashed" background-color="#FFFFFF" text-color="#333333" border-color="#FF0000"></clock-component-customizable>
+<clock-component-customizable timezone="America/New_York" locales="en-US"
+                              type="border-dashed" backgroundColor="#FFFFFF"
+                              textColor="#333333" borderColor="#FF0000"></clock-component-customizable>
 ```
+![image](https://github.com/AlexandraBledea/SE-Sem2-Framework-Design/assets/72063091/21bc839a-4274-4615-9c9c-302e497616b1)
+
+```html
+<clock-component-customizable timezone="America/New_York" locales="en-GB"
+                              type="border-dotted" textColor="blue"
+                              borderColor="purple"></clock-component-customizable>
+```
+![image](https://github.com/AlexandraBledea/SE-Sem2-Framework-Design/assets/72063091/97efc028-2519-43f3-b207-1722a21946e8)
+
+```html
+<clock-component-customizable timezone="America/New_York" locales="en-GB"
+                              type="border-dotted" textColor="blue"
+                              borderColor="purple"></clock-component-customizable>
+```
+![image](https://github.com/AlexandraBledea/SE-Sem2-Framework-Design/assets/72063091/0892c786-00ac-4998-913a-36f0d65ca06c)
+
+```html
+<clock-component-customizable timezone="America/New_York" locales="en-GB"></clock-component-customizable>
+```
+![image](https://github.com/AlexandraBledea/SE-Sem2-Framework-Design/assets/72063091/5ccbd642-2260-44cf-9c01-140abdf2e2d0)
+
+```html
+<clock-component-customizable type="border-dashed" textColor="#FAF3DD" borderColor="black"
+                              backgroundColor="#68B0AB" locales="en-GB"
+                              timezone="Europe/Bucharest"></clock-component-customizable>
+```
+![image](https://github.com/AlexandraBledea/SE-Sem2-Framework-Design/assets/72063091/0de3cad7-cdcf-45c2-abb2-bbdbcc2c5af4)
