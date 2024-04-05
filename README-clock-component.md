@@ -42,15 +42,15 @@
 ## Lifecycle Methods
 
 - **connectedCallback()**
-  - Description:  Invoked when the component is added to the document's DOM, starting the timer.
+  - Description: Invoked when the component is added to the document's DOM, starting the timer.
 
 - **disconnectedCallback()**
-  - Description:  Invoked when the component is removed from the document's DOM, stopping the timer.
+  - Description: Invoked when the component is removed from the document's DOM, stopping the timer.
 
 ## Methods
 
 - **startTimer()**
-  - Description:  Initiates the timer to update the clock every second.
+  - Description: Initiates the timer to update the clock every second.
 
 - **stopTimer()**
   - Description: Clears the existing timer, stopping the clock updates.
@@ -61,7 +61,7 @@
 ## Rendering
 
 - **render()**
-  - Description: etermines which render method to invoke based on the `type` property.
+  - Description: Determines which render method to invoke based on the `type` property.
 
 - **renderDefaultClock()**
   - Description: Renders the clock without any specific theme applied, using default styling.
