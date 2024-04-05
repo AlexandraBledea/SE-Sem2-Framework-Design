@@ -41,14 +41,21 @@
 - **time**: String
   - Description: Holds the current time string. This property is internal and updated every second.
 
+## Lifecycle Methods
+
+- **connectedCallback()**
+  - Description:  Invoked when the component is added to the document's DOM, starting the timer.
+
+- **disconnectedCallback()**
+  - Description:  Invoked when the component is removed from the document's DOM, stopping the timer.
 
 ## Methods
 
 - **startTimer()**
-  - Description:  Initializes the clock, updating the time every second.
+  - Description:  Initiates the timer to update the clock every second.
 
 - **stopTimer()**
-  - Description: Stops the clock.
+  - Description: Clears the existing timer, stopping the clock updates.
 
 - **updateTime()**
   - Description: Updates the `time` property with the current time based on the set `timezone` and `locales`.
