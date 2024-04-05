@@ -150,3 +150,82 @@ To use 'ClockComponentCustomizable' in your HTML:
 <clock-component type="greenThemeAccent" locales="en-GB" timezone="Europe/Bucharest"></clock-component>
 ```
 ![image](https://github.com/AlexandraBledea/SE-Sem2-Framework-Design/assets/72063091/3a3f2844-2261-40fa-b937-900f858ef261)
+
+## CSS Custom Properties
+### pinkThemePrimary
+| Custom Property | Description | Default |
+| ------------- | ------------- | ------------- |
+| --clock-text-color | Color text | - ![#BB8493](https://placehold.co/15x15/BB8493/BB8493.png) `#BB8493` |
+|--clock-border-color  | Color border  | - ![#BCA0BC](https://placehold.co/15x15/BCA0BC/BCA0BC.png) `#BCA0BC` |
+| --clock-primary-bg-color | Color background  | - ![#fddde6](https://placehold.co/15x15/fddde6/fddde6.png) `#fddde6` |
+
+### pinkThemeAccent
+| Custom Property | Description | Default |
+| ------------- | ------------- | ------------- |
+| --clock-text-color | Color text | - ![#BB8493](https://placehold.co/15x15/BB8493/BB8493.png) `#BB8493` |
+|--clock-border-color  | Color border  | - ![#BCA0BC](https://placehold.co/15x15/BCA0BC/BCA0BC.png) `#BCA0BC` |
+
+### brightPinkThemePrimary
+| Custom Property | Description | Default |
+| ------------- | ------------- | ------------- |
+| --clock-text-color | Color text | - ![#B0578D](https://placehold.co/15x15/B0578D/B0578D.png) `#B0578D` |
+|--clock-border-color  | Color border  | - ![#E26EE5](https://placehold.co/15x15/E26EE5/E26EE5.png) `#E26EE5` |
+| --clock-primary-bg-color | Color background  | - ![#F9B9F2](https://placehold.co/15x15/F9B9F2/F9B9F2.png) `#F9B9F2` |
+
+### brightPinkThemeAccent
+| Custom Property | Description | Default |
+| ------------- | ------------- | ------------- |
+| --clock-text-color | Color text | - ![#B0578D](https://placehold.co/15x15/B0578D/B0578D.png) `#B0578D` |
+|--clock-border-color  | Color border  | - ![#E26EE5](https://placehold.co/15x15/E26EE5/E26EE5.png) `#E26EE5` |
+
+### greenThemePrimary
+| Custom Property | Description | Default |
+| ------------- | ------------- | ------------- |
+| --clock-text-color | Color text | - ![#114232](https://placehold.co/15x15/114232/114232.png) `#114232` |
+|--clock-border-color  | Color border  | - ![#4A7C59](https://placehold.co/15x15/4A7C59/4A7C59.png) `#4A7C59` |
+| --clock-primary-bg-color | Color background  | - ![#BFEA7C](https://placehold.co/15x15/BFEA7C/BFEA7C.png) `#BFEA7C` |
+
+### greenThemeAccent
+| Custom Property | Description | Default |
+| ------------- | ------------- | ------------- |
+| --clock-text-color | Color text | - ![#114232](https://placehold.co/15x15/114232/114232.png) `#114232` |
+|--clock-border-color  | Color border  | - ![#4A7C59](https://placehold.co/15x15/4A7C59/4A7C59.png) `#4A7C59` |
+
+### purpleThemePrimary
+| Custom Property | Description | Default |
+| ------------- | ------------- | ------------- |
+| --clock-text-color | Color text | - ![#492E87](https://placehold.co/15x15/492E87/492E87.png) `#492E87` |
+|--clock-border-color  | Color border  | - ![#8644A2](https://placehold.co/15x15/8644A2/8644A2.png) `#8644A2` |
+| --clock-primary-bg-color | Color background  | - ![#C499F3](https://placehold.co/15x15/C499F3/C499F3.png) `#C499F3` |
+
+### purpleThemeAccent
+| Custom Property | Description | Default |
+| ------------- | ------------- | ------------- |
+| --clock-text-color | Color text | - ![#492E87](https://placehold.co/15x15/492E87/492E87.png) `#492E87` |
+|--clock-border-color  | Color border  | - ![#8644A2](https://placehold.co/15x15/8644A2/8644A2.png) `#8644A2` |
+
+### blueThemePrimary
+| Custom Property | Description | Default |
+| ------------- | ------------- | ------------- |
+| --clock-text-color | Color text | - ![#0B60B0](https://placehold.co/15x15/0B60B0/0B60B0.png) `#0B60B0` |
+|--clock-border-color  | Color border  | - ![#86B6F6](https://placehold.co/15x15/86B6F6/86B6F6.png) `#86B6F6` |
+| --clock-primary-bg-color | Color background  | - ![#B4D4FF](https://placehold.co/15x15/B4D4FF/B4D4FF.png) `#B4D4FF` |
+
+### blueThemeAccent
+| Custom Property | Description | Default |
+| ------------- | ------------- | ------------- |
+| --clock-text-color | Color text | - ![#0B60B0](https://placehold.co/15x15/0B60B0/0B60B0.png) `#0B60B0` |
+|--clock-border-color  | Color border  | - ![#86B6F6](https://placehold.co/15x15/86B6F6/86B6F6.png) `#86B6F6` |
+
+### orangeThemePrimary
+| Custom Property | Description | Default |
+| ------------- | ------------- | ------------- |
+| --clock-text-color | Color text | - ![#FC6736](https://placehold.co/15x15/FC6736/FC6736.png) `#FC6736` |
+|--clock-border-color  | Color border  | - ![#F6995C](https://placehold.co/15x15/F6995C/F6995C.png) `#F6995C` |
+| --clock-primary-bg-color | Color background  | - ![#FFC374](https://placehold.co/15x15/FFC374/FFC374.png) `#FFC374` |
+
+### orangeThemeAccent
+| Custom Property | Description | Default |
+| ------------- | ------------- | ------------- |
+| --clock-text-color | Color text | - ![#FC6736](https://placehold.co/15x15/FC6736/FC6736.png) `#FC6736` |
+|--clock-border-color  | Color border  | - ![#F6995C](https://placehold.co/15x15/F6995C/F6995C.png) `#F6995C` |
