@@ -1,4 +1,6 @@
 # SmallProject
+[Section 1](./README-clock-component.md)
+[Section 2](./README-section2.md)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.10.
 
