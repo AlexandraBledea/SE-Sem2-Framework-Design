@@ -1,5 +1,12 @@
-# TODO List Component
-This is a custom web todo list component. There are tasks and categories. Each task is assigned to a category and can be completed or not. New categories can be added. New tasks can be created. A task can be marked as completed or not. All the tasks can be displayed or they can be displayed only for a category.
+# TodoListComponent
+`TodoListComponent` is a web component built with LitElement that allows users to manage tasks within categories. Users can add, delete, and filter tasks, mark tasks as done or undone, as well as add and delete categories.
+
+## Features
+- Add and delete tasks.
+- Mark tasks as done or mark them as undone.
+- Filter tasks by categories.
+- Add and delete categories.
+- Theming support with customizable color schemes.
 
 ## Public Properties
 
