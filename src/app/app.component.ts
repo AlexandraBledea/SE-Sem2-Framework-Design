@@ -23,22 +23,30 @@ export class AppComponent implements AfterViewInit{
   constructor(private el: ElementRef) {}
 
   ngAfterViewInit() {
-    const todoListElement = this.el.nativeElement.querySelector('todo-list-component');
-    if (todoListElement) {
-      todoListElement.tasks = this.tasks;
-      todoListElement.categories = this.categories;
-      todoListElement.theme="pinkTheme";
+    // const todoListElement = this.el.nativeElement.querySelector('todo-list-component');
+    // if (todoListElement) {
+    //   todoListElement.tasks = this.tasks;
+    //   todoListElement.categories = this.categories;
+    //   todoListElement.theme="pinkTheme";
 
-      // Listen for tasks changes
-      todoListElement.addEventListener('tasks-changed', (event: any) => {
-        this.tasks = event.detail.tasks;
-      });
+    //   // Listen for tasks changes
+    //   todoListElement.addEventListener('tasks-changed', (event: any) => {
+    //     this.tasks = event.detail.tasks;
+    //   });
+    //
+    //   // Listen for categories changes
+    //   todoListElement.addEventListener('categories-changed', (event: any) => {
+    //     this.categories = event.detail.categories;
+    //   });
+    // }
+  }
 
-      // Listen for categories changes
-      todoListElement.addEventListener('categories-changed', (event: any) => {
-        this.categories = event.detail.categories;
-      });
-    }
+  onTasksChanged(event: any){
+    this.tasks = event.detail.tasks;
+  }
+
+  onCategoriesChanged(event: any){
+    this.categories = event.detail.categories;
   }
 
 }

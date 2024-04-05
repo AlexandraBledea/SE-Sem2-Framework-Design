@@ -11,17 +11,21 @@
 
 
 <todo-list-component
+  [tasks]="tasks"
+  [categories]="categories"
+  (tasks-changed)="onTasksChanged($event)"
+  (categories-changed)="onCategoriesChanged($event)"
 ></todo-list-component>
 
-<!--<div>-->
-<!--  <ul>-->
-<!--    <li *ngFor="let category of categories">{{ category }}</li>-->
-<!--  </ul>-->
-<!--</div>-->
+<div>
+  <ul>
+    <li *ngFor="let category of categories">{{ category }}</li>
+  </ul>
+</div>
 
 
-<!--<div>-->
-<!--  <ul>-->
-<!--    <li *ngFor="let task of tasks">{{ task.name + " " + task.category + " " + task.completed }}</li>-->
-<!--  </ul>-->
-<!--</div>-->
+<div>
+  <ul>
+    <li *ngFor="let task of tasks">{{ task.name + " " + task.category + " " + task.completed }}</li>
+  </ul>
+</div>

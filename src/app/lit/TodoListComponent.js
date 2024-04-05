@@ -169,6 +169,8 @@ class TodoListComponent extends LitElement {
     this.categories = [];
     this.newCategory = '';
     this.newTaskName = '';
+    this.selectedAddCategory = '';
+    this.selectedDisplayCategory = ''
   }
 
   renderCategoryInput() {
