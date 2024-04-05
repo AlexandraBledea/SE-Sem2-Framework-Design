@@ -1,10 +1,10 @@
-# Clock Customizable Component
-`ClockComponentCustomizable` is a web component built with LitElement that displays a clock. Users can customize time zone, locale, appearance (text color, border color, background color), and border style.
+# Clock  Component
+`ClockComponent` is a LitElement-based web component that displays a clock, which can be customized in terms of time zone, locale, and theme.
 
 ## Features
-- Displays current time with customizable time zone and locale.
-- Customizable text color, border color, and background color.
-- Supports various border styles: solid, dashed and dotted.
+- Displays the current time, updating every second.
+- Customizable time zone and locale settings.
+- Supports multiple theme variations for customization.
 
 ## Public Properties
 
@@ -18,24 +18,22 @@
 
 - **type**: String
   - Default: `basic`
-  - Description: Determines the border style of the clock and can have the following values:
+  - Description: Determines the theme of the clock and can have the following values:
+    - `pinkThemePrimary`
+    - `pinkThemeAccent`
+    - `brightPinkThemePrimary`
+    - `brightPinkThemeAccent`
+    - `brightPinkThemePrimary`
+    - `greenThemePrimary`
+    - `greenThemeAccent`
+    - `purpleThemePrimary`
+    - `purpleThemeAccent`
+    - `blueThemePrimary`
+    - `blueThemeAccent`
+    - `orangeThemePrimary`
+    - `orangeThemeAccent`
     - `basic`
-    - `border-solid`
-    - `border-dashed`
-    - `border-dotted`
-
-- **backgroundColor**: String
-  - Default: `pink`
-  - Description: Sets the background color of the clock.
-
-- **textColor**: String
-  - Default: `#000000`
-  - Description: Sets the text color of the clock
-
-- **borderColor**: String
-  - Default: `#000000`
-  - Description: Sets the border color.
-
+      
 ## Internal (Private) Properties
 
 - **time**: String
