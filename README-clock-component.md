@@ -1,4 +1,4 @@
-![image](https://github.com/AlexandraBledea/SE-Sem2-Framework-Design/assets/72063091/13e05fd7-1142-4275-86c1-0c5be2e6ad26)# Clock  Component
+# ClockComponent
 `ClockComponent` is a LitElement-based web component that displays a clock, which can be customized in terms of time zone, locale, and theme.
 
 ## Features
